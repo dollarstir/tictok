@@ -1,23 +1,24 @@
 <?php
-extract($_POST);
+if (isset($_POST['sbtn'])) {
+    extract($_POST);
 
-$res = insert('event', [
+    $res = insert('event', [
   'title' => $title,
   'venue' => $venue,
   'dt' => $dt,
   'tp' => $tp,
 ], $_FILES);
-if ($res == 'success') {
-    echo '<script>
+    if ($res == 'success') {
+        echo '<script>
       alert("Event added Successfuly");
       window.location.reload();
     </script>';
-} else {
-    echo '<script>
+    } else {
+        echo '<script>
   alert("Failed to add event");
 </script>';
+    }
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -185,7 +186,7 @@ if ($res == 'success') {
           </form>
         </div>
         <div class="card-footer">
-          <button class="btn btn--radius-2 btn--blue-2" type="submit">Submit</button>
+          <button class="btn btn--radius-2 btn--blue-2" name="sbtn" type="submit">Submit</button>
         </div>
       </div>
     </div>
