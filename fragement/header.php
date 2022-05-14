@@ -20,7 +20,7 @@ echo '<div class="header-search open-search">
 </div>
 
 <div data-off-canvas="mobile-slidebar left overlay">
-<a href="index.html" class="navbar-brand scroll">
+<a href="home" class="navbar-brand scroll">
     <img src="dvents/wp-content/uploads/2017/06/tictok_logo2.png" class="normal-logo"
         alt="Tictok Global Events Management Companies and Agencies">
     
@@ -28,12 +28,12 @@ echo '<div class="header-search open-search">
 
 <ul id="menu-mobile-menu" class="nav navbar-nav">
 
-    <li><a title="Home" href="index.html">Home</a></li>
-    <li><a title="Services" href="services/index.html">Services</a></li>
-    <li><a title="Events" href="events/index.html">Events</a></li>
-    <li><a title="About" href="about/index.html">About</a></li>
+    <li><a title="Home" href="home">Home</a></li>
+    <li><a title="Services" href="services">Services</a></li>
+    <li><a title="Events" href="events">Events</a></li>
+    <li><a title="About" href="aboutus">About</a></li>
 
-    <li><a title="Contact" href="contact/index.html">Contact</a></li>
+    <li><a title="Contact" href="contact">Contact</a></li>
 
     <ul role="menu" class=" dropdown-menu">
 
@@ -49,12 +49,12 @@ echo '<div class="header-search open-search">
 <nav class="fullscreen-center-menu">
     <div class="menu-main-menu-container">
         <ul id="menu-popup-menu" class="menu">
-            <li><a href="index.html" aria-current="page">Home</a></li>
-            <li><a href="services/index.html">Services</a></li>
-            <li><a href="events/index.html">Events</a></li>
-            <li><a href="about/index.html">About</a></li>
+            <li><a href="home" aria-current="page">Home</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="events">Events</a></li>
+            <li><a href="aboutus">About</a></li>
             <!-- <li><a href="blog/index.html">Blog</a></li> -->
-            <li><a href="contact/index.html">Get in Touch</a></li>
+            <li><a href="contact">Get in Touch</a></li>
         </ul>
     </div>
 </nav>
@@ -121,7 +121,7 @@ class="header header-boxed-width header-background-trans header-logo-black heade
                         </i>
                     </button>
                     <!-- Mobile Trigger End-->
-                    <a href="index.html" class="navbar-brand scroll">
+                    <a href="home" class="navbar-brand scroll">
                         <img src="dvents/wp-content/uploads/2017/06/tictok_logo2.png"
                             class="normal-logo"
                             alt="Tictok Global Events Management Companies and Agencies">
@@ -151,12 +151,12 @@ class="header header-boxed-width header-background-trans header-logo-black heade
 
                     <ul id="menu-primary-menu" class="yamm main-menu nav navbar-nav">
 
-                        <li><a title="Home" href="index.html">Home</a></li>
-                        <li><a title="SERVICES" href="services/index.html">SERVICES</a></li>
-                        <li><a title="Events" href="events/index.html">Events</a></li>
-                        <li><a title="ABOUT" href="about/index.html">ABOUT</a></li>
+                        <li><a title="Home" href="home">Home</a></li>
+                        <li><a title="SERVICES" href="services">SERVICES</a></li>
+                        <li><a title="Events" href="events">Events</a></li>
+                        <li><a title="ABOUT" href="aboutus">ABOUT</a></li>
 
-                        <li><a title="CONTACT" href="contact/index.html">CONTACT</a></li>
+                        <li><a title="CONTACT" href="contact">CONTACT</a></li>
 
                     </ul>
 
