@@ -186,7 +186,7 @@ if (isset($_POST['sbtn'])) {
           </form>
         </div>
         <div class="card-footer">
-          <button class="btn btn--radius-2 btn--blue-2" name="sbtn" type="submit">Submit</button>
+          <input class="btn btn--radius-2 btn--blue-2" name="sbtn" type="submit" value="Submit">
         </div>
       </div>
     </div>
