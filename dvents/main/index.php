@@ -137,7 +137,7 @@ if (isset($_POST['sbtn'])) {
           <h2 class="title">Add Events</h2>
         </div>
         <div class="card-body">
-          <form method="POST">
+          <form method="POST" action="eventdashboard">
             <div class="form-row">
               <div class="name">Event Title</div>
               <div class="value">
