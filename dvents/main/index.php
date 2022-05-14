@@ -1,5 +1,10 @@
 <?php
+extract($_POST);
 
+$res = insert('event', [
+  'title' => $title,
+  'venue' => $venue,
+]);
 ?>
 <!DOCTYPE html>
 <html lang="en">
