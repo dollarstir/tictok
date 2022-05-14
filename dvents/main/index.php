@@ -7,6 +7,17 @@ $res = insert('event', [
   'dt' => $dt,
   'tp' => $tp,
 ], $_FILES);
+if ($res == 'success') {
+    echo '<script>
+      alert("Event added Successfuly");
+      window.location.reload();
+    </script>';
+} else {
+    echo '<script>
+  alert("Failed to add event");
+</script>';
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
