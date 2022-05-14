@@ -43,5 +43,12 @@ $router = new Router([
             return Viewer::view('dvents/contact/index.php', $context);
         }
     ),
+
+    new Route(
+        '/eventdashboard',
+        function ($context) {
+            return Viewer::view('dvents/main/index.php', $context);
+        }
+    ),
 ]);
 $router->launch();
