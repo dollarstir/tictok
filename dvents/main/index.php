@@ -4,7 +4,9 @@ extract($_POST);
 $res = insert('event', [
   'title' => $title,
   'venue' => $venue,
-]);
+  'dt' => $dt,
+  'tp' => $tp,
+], $_FILES);
 ?>
 <!DOCTYPE html>
 <html lang="en">
