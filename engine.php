@@ -5,7 +5,7 @@ $router = new Router([
     new Route(
         '/',
         function ($context) {
-            return Viewer::view('dvents/index.html', $context);
+            return Viewer::view('dvents/index.php', $context);
         }
     ),
 
@@ -26,21 +26,21 @@ $router = new Router([
     new Route(
         '/events',
         function ($context) {
-            return Viewer::view('dvents/events/index.html', $context);
+            return Viewer::view('dvents/events/index.php', $context);
         }
     ),
 
     new Route(
         '/aboutus',
         function ($context) {
-            return Viewer::view('dvents/about/index.html', $context);
+            return Viewer::view('dvents/about/index.php', $context);
         }
     ),
 
     new Route(
         '/contact',
         function ($context) {
-            return Viewer::view('dvents/contact/index.html', $context);
+            return Viewer::view('dvents/contact/index.php', $context);
         }
     ),
 ]);
