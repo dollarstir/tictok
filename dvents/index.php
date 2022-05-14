@@ -2,9 +2,8 @@
 <html lang="en-US">
 
 
-<!-- Mirrored from demo.ovathemes.com/dvents/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 May 2021 15:22:07 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
