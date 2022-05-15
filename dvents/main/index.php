@@ -11,7 +11,7 @@ if (isset($_POST['sbtn'])) {
     if ($res == 'success') {
         echo '<script>
       alert("Event added Successfuly");
-      window.location.reload();
+      window.location="eventdashboard";
     </script>';
     } else {
         echo '<script>
