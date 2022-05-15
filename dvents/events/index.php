@@ -333,8 +333,28 @@
 
 							<div class="row">
 								<?php
-                                $res;
 
+                                $res = fetchall('event', ['id' => 'DESC']);
+                                    foreach ($res as $row) {
+                                        $dd = $row['dt'];
+										$newdate = 
+                                        echo '<div class="owl-item col-lg-3 col-sm-6 ">
+										<section class="b-events-2 text-center">
+											<div class="b-events-2__media"><img src="yolkassets/upload/'.$row['pic'].'" alt="CountDown Event"
+													class="img-responsive image-event-2" />
+												<div class="b-events-calendar">
+													<div class="b-events-calendar__wrap">
+														<span class="">'.$row['dt'].' ,<br> '.$row['tp'].'</span>
+													</div>
+												</div>
+											</div>
+											<div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
+											<h3 class="b-events-2__title"><a href="#">Afrochella</a></h3>
+											<div class="b-events__details"><i class="icon icon-map"></i> El-wak Sports
+												stadium</div>
+										</section>
+									</div>';
+                                    }
                                 ?>
 
 								<!-- <div class="owl-item col-lg-3 col-sm-6 ">
