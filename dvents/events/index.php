@@ -332,24 +332,12 @@
 
 
 							<div class="row">
-								<div class="owl-item col-lg-3 col-sm-6 ">
-									<section class="b-events-2 text-center">
-										<div class="b-events-2__media"><img src="dvents/wp-content/uploads/2017/06/afr_20171.png" alt="CountDown Event"
-												class="img-responsive image-event-2" />
-											<div class="b-events-calendar">
-												<div class="b-events-calendar__wrap">
-													<span class="">December 29 2019 , 12:00PM - 2:00 AM</span>
-												</div>
-											</div>
-										</div>
-										<div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-										<h3 class="b-events-2__title"><a href="#">Afrochella</a></h3>
-										<div class="b-events__details"><i class="icon icon-map"></i> El-wak Sports
-											stadium</div>
-									</section>
-								</div>
+								<?php
+                                $res;
 
-								<div class="owl-item col-lg-3 col-sm-6 ">
+                                ?>
+
+								<!-- <div class="owl-item col-lg-3 col-sm-6 ">
 									<section class="b-events-2 text-center">
 										<div class="b-events-2__media"><img src="dvents/wp-content/uploads/2017/06/ry.png"
 												alt="Marketing Concert" class="img-responsive image-event-2" />
@@ -399,7 +387,7 @@
 										<h3 class="b-events-2__title"><a href="#">UPPfest</a></h3>
 										<div class="b-events__details"><i class="icon icon-map"></i> Base lounge</div>
 									</section>
-								</div>
+								</div> -->
 							</div>
 							<div class="clearfix"></div>
 							<div class="ui-decor-1 ui-decor-1_full-width"><img
