@@ -1,6 +1,7 @@
 <?php
 if (isset($_POST['sbtn'])) {
     extract($_POST);
+    $tp = $t1.' - '.$t2;
 
     $res = insert('event', [
   'title' => $title,
@@ -164,10 +165,19 @@ if (isset($_POST['sbtn'])) {
     
     
                 <div class="form-row">
-                  <div class="name">Date</div>
+                  <div class="name">From</div>
                   <div class="value">
                     <div class="input-group">
-                      <input class="input--style-6" type="time" name="tp" placeholder="">
+                      <input class="input--style-6" type="time" name="t1" placeholder="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="name">To</div>
+                  <div class="value">
+                    <div class="input-group">
+                      <input class="input--style-6" type="time" name="t2" placeholder="">
                     </div>
                   </div>
                 </div>
