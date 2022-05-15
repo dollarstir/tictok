@@ -137,57 +137,58 @@ if (isset($_POST['sbtn'])) {
           <h2 class="title">Add Events</h2>
         </div>
         <div class="card-body">
-          <form method="POST" action="eventdashboard">
-            <div class="form-row">
-              <div class="name">Event Title</div>
-              <div class="value">
-                <input class="input--style-6" type="text" name="title">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="name">Venue</div>
-              <div class="value">
-                <div class="input-group">
-                  <input class="input--style-6" type="text" name="venue" placeholder="Venue">
+            <form method="POST" action="eventdashboard">
+                <div class="form-row">
+                  <div class="name">Event Title</div>
+                  <div class="value">
+                    <input class="input--style-6" type="text" name="title">
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="name">Date</div>
-              <div class="value">
-                <div class="input-group">
-                  <input class="input--style-6" type="date" name="dt" placeholder="">
+                <div class="form-row">
+                  <div class="name">Venue</div>
+                  <div class="value">
+                    <div class="input-group">
+                      <input class="input--style-6" type="text" name="venue" placeholder="Venue">
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-
-            <div class="form-row">
-              <div class="name">Date</div>
-              <div class="value">
-                <div class="input-group">
-                  <input class="input--style-6" type="time" name="tp" placeholder="">
+    
+                <div class="form-row">
+                  <div class="name">Date</div>
+                  <div class="value">
+                    <div class="input-group">
+                      <input class="input--style-6" type="date" name="dt" placeholder="">
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            
-            <div class="form-row">
-              <div class="name">Upload Image</div>
-              <div class="value">
-                <div class="input-group js-input-file">
-                  <input class="input-file" type="file" name="pic" id="file">
-                  <label class="label--file" for="file">Choose file</label>
-                  <span class="input-file__info">No file chosen</span>
+    
+    
+                <div class="form-row">
+                  <div class="name">Date</div>
+                  <div class="value">
+                    <div class="input-group">
+                      <input class="input--style-6" type="time" name="tp" placeholder="">
+                    </div>
+                  </div>
                 </div>
-                <div class="label--desc">Upload event image</div>
-              </div>
+                
+                <div class="form-row">
+                  <div class="name">Upload Image</div>
+                  <div class="value">
+                    <div class="input-group js-input-file">
+                      <input class="input-file" type="file" name="pic" id="file">
+                      <label class="label--file" for="file">Choose file</label>
+                      <span class="input-file__info">No file chosen</span>
+                    </div>
+                    <div class="label--desc">Upload event image</div>
+                  </div>
+                </div>
+              
             </div>
-          </form>
-        </div>
-        <div class="card-footer">
-          <input class="btn btn--radius-2 btn--blue-2" name="sbtn" type="submit" value="Submit">
-        </div>
+            <div class="card-footer">
+              <input class="btn btn--radius-2 btn--blue-2" name="sbtn" type="submit" value="Submit">
+            </div>
+        </form>
       </div>
     </div>
   </div>
