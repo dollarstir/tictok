@@ -349,9 +349,8 @@
 												</div>
 											</div>
 											<div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-											<h3 class="b-events-2__title"><a href="#">Afrochella</a></h3>
-											<div class="b-events__details"><i class="icon icon-map"></i> El-wak Sports
-												stadium</div>
+											<h3 class="b-events-2__title"><a href="#">'.$row['title'].'</a></h3>
+											<div class="b-events__details"><i class="icon icon-map"></i> '.$row['venue'].'</div>
 										</section>
 									</div>';
                                     }
