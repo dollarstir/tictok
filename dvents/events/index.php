@@ -344,7 +344,7 @@
 													class="img-responsive image-event-2" />
 												<div class="b-events-calendar">
 													<div class="b-events-calendar__wrap">
-														<span class="">'.$row['dt'].' ,<br> '.$row['tp'].'</span>
+														<span class="">'.$newdate.' ,<br> '.$row['tp'].'</span>
 													</div>
 												</div>
 											</div>
