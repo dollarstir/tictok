@@ -168,7 +168,7 @@ if (isset($_POST['sbtn'])) {
                   <div class="name">From</div>
                   <div class="value">
                     <div class="input-group">
-                      <input class="input--style-6" type="time" name="t1" placeholder="">
+                      <input class="input--style-6" type="text" name="t1" placeholder="">
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ if (isset($_POST['sbtn'])) {
                   <div class="name">To</div>
                   <div class="value">
                     <div class="input-group">
-                      <input class="input--style-6" type="time" name="t2" placeholder="">
+                      <input class="input--style-6" type="text" name="t2" placeholder="">
                     </div>
                   </div>
                 </div>

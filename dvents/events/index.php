@@ -334,7 +334,7 @@
 							<div class="row">
 								<?php
 
-                                $res = fetchall('event', ['id' => 'DESC']);
+$res = fetchall('event', ['id' => 'DESC']);
                                     foreach ($res as $row) {
                                         $dd = $row['dt'];
                                         $newdate = date('jS F, Y', strtotime($dd));
